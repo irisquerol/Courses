@@ -40,9 +40,12 @@
             android:background="@color/black" />
 
         <LinearLayout
+            android:id="@+id/course2"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:orientation="horizontal">
+            android:clickable="true"
+            android:orientation="horizontal"
+            android:focusable="true">
 
             <TextView
                 android:id="@+id/title2"

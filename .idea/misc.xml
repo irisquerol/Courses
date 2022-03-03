@@ -3,8 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/ytmar/OneDrive - La Salle/Universitat/software 4/DDM/AndroidStudio/Courses/app/src/main/res/layout/activity_main.xml" value="0.30052083333333335" />
-        <entry key="..\:/Users/ytmar/OneDrive - La Salle/Universitat/software 4/DDM/AndroidStudio/Courses/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/OneDrive - La Salle/Curs 21-22/Android/Exercicis/Courses/app/src/main/res/layout/activity_detail.xml" value="0.11302083333333333" />
+        <entry key="..\:/OneDrive - La Salle/Curs 21-22/Android/Exercicis/Courses/app/src/main/res/layout/activity_details.xml" value="0.11302083333333333" />
+        <entry key="..\:/OneDrive - La Salle/Curs 21-22/Android/Exercicis/Courses/app/src/main/res/layout/activity_main.xml" value="0.2" />
       </map>
     </option>
   </component>
