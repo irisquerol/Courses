@@ -1,3 +1,27 @@
 <resources>
-    <string name="app_name">Courses</string>
+    <string name="app_name">Subjects</string>
+    <string name="careear">GRADO EN TÉCNICAS DE APLICACIONES DE SOFTWARE</string>
+    <string name="title1">Desarrollo en dispositivos móviles I</string>
+    <string name="descriptionShort1">La programación es una ciencia principalmente práctica y, como la mayoría de ciencias prácticas, esta se estructura en proyectos.</string>
+    <string name="descriptionLong1">La programación es una ciencia principalmente práctica y, como la mayoría de ciencias prácticas, esta se estructura en proyectos. Esta es la premisa de la cual parte la asignatura de Proyectos de Programación 2. El objetivo principal de la asignatura es ampliar los conocimientos de los alumnos en el campo de la programación, presentándolos un nuevo ámbito: la programación para dispositivos móviles. Dado que el mundo de la programación para dispositivos móviles es muy amplio, la asignatura se centrará en el sistema que, de momento, tiene una mayor presencia en el mercado. Este sistema es Android. La asignatura tendrá también como objetivo dotar al alumno de técnicas y conocimientos, tanto prácticos como teóricos, que le permitan afrontar el mundo de la programación con las herramientas necesarias. La asignatura pretende utilizar una metodología eminentemente práctica para impartir el nuevo conocimiento. De esta forma será habitual que los conocimientos teóricos voy acompañados de ejercicios, y/o proyectos, tanto individuales como en equipo.</string>
+    <string name="credits1">6 ECTS</string>
+    <string name="teacher1">Manel Roca Relats</string>
+
+    <string name="title2">Desarrollo en entornos web</string>
+    <string name="descriptionShort2">La documentación presente recoge información sobre el funcionamiento de la asignatura "Desarrollo en entornos web" (DEW) del plan de estudios del Grado en Técnicas de Aplicaciones de Software (GTAS).</string>
+    <string name="descriptionLong2">La documentación presente recoge información sobre el funcionamiento de la asignatura "Desarrollo en entornos web" (DEW) del plan de estudios del Grado en Técnicas de Aplicaciones de Software (GTAS). Es importante que el alumno lea detenidamente todos los apartados, que las dudas que le surjan los esclarezca con el profesorado implicado y que tome este documento como un punto de consulta referente a lo largo de su participación en la asignatura. A continuación, se sitúa el contexto de la asignatura y se motiva su estudio, se presenta el profesorado implicado y se indica la dedicación orientativa del alumno para que tenga un aprendizaje satisfactorio. Después se exponen los objetivos, los resultados de aprendizaje, las competencias que se ejercitan, las metodologías docentes, las actividades formativas y el sistema de evaluación, incluyendo también la descripción de los contenidos, la planificación según el calendario académico y un conjunto de referencias bibliográficas. El objetivo de la asignatura Desarrollo en entornos web es que los alumnos adquieran los conocimientos necesarios para Desarrollar Aplicaciones utilizando tecnologías web. Las tecnologías utilizadas y que se imparten son HTML, CSS y JavaScript. Actualmente son el estándar recomendado por la W3C (World Wide Consortium) y consideradas las mejores para el Desarrollo web. El nivel impartido en la asignatura es alto, utilizando el nuevo estándar HTML5, CSS3, SCSS, objetos y librerías JavaScript, editores GUI y automatizaciones simulando un entorno de trabajo real, por ejemplo, con Node.js La asignatura tiene una intensidad de trabajo de 6 créditos ECTS, que equivale a 150 horas de dedicación para el estudiante.</string>
+    <string name="credits2">6 ECTS</string>
+    <string name="teacher2">Daniel Amo Filvà</string>
+
+    <string name="title3">Programación orientada a objetos</string>
+    <string name="descriptionShort3">La Programación Orientada a Objetos (POO) es uno de los paradigmas más populares en la actualidad y Java es uno de los lenguajes más usados en la industria actualmente.</string>
+    <string name="descriptionLong3">La Programación Orientada a Objetos (POO) es uno de los paradigmas más populares en la actualidad y Java es uno de los lenguajes más usados en la industria actualmente. El objetivo es que el alumno sea capaz de plantear soluciones siguiendo un patrón orientado a objetos, así como implementar-las en el lenguaje Java. Esta asignatura será muy útil como base para otras asignaturas en que se usan lenguajes orientados a objetos, y también para el desarrollo de aplicaciones móviles, siendo Java el lenguaje más usado para implementar aplicaciones para Android.</string>
+    <string name="credits3">6 ECTS</string>
+    <string name="teacher3">Pol Muñoz Pastor</string>
+
+    <string name="title4">Fotografía</string>
+    <string name="descriptionShort4">La asignatura pretende que el alumno reciba los conocimientos técnicos y prácticos suficientes para que al finalizarla sea capaz de desarrollarse en el mundo de la fotografía de forma autónoma.</string>
+    <string name="descriptionLong4">La asignatura pretende que el alumno reciba los conocimientos técnicos y prácticos suficientes para que al finalizarla sea capaz de desarrollarse en el mundo de la fotografía de forma autónoma. Durante el semestre se verán todos los temas más importantes de la fotografía como se la técnica fotográfica, la composición, la iluminación, el procesado digital, la elaboración del reportaje y las aplicaciones científicas de la fotografía.</string>
+    <string name="credits4">6 ECTS</string>
+    <string name="teacher4">Joan De la Malla Gómez</string>
 </resources>
