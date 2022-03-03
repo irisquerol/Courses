@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Gravity;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.Toast;
@@ -15,14 +14,30 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        LinearLayout course1 = findViewById(R.id.course1);
+        course1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showToast(1);
+                openDetailsActivity();
+            }
+        });
         LinearLayout course2 = findViewById(R.id.course2);
         course2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 showToast(1);
-                openActivity2();
+                openDetailsActivity();
                 //Intent picture_intent = new Intent(MainActivity.this,Activity2.class);
                 //startActivity(picture_intent );
+            }
+        });
+        LinearLayout course3 = findViewById(R.id.course3);
+        course3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showToast(1);
+                openDetailsActivity();
             }
         });
     }
@@ -42,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
         t.show();
     }
 
-    public void openActivity2() {
+    public void openDetailsActivity() {
         Intent intent = new Intent(MainActivity.this, DetailsActivity.class);
         startActivity(intent);
     }
