@@ -9,20 +9,25 @@ import android.widget.LinearLayout;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+    int[] subjects = {R.id.subject1, R.id.subject2, R.id.subject3, R.id.subject4, R.id.subject6, R.id.subject6};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        LinearLayout course1 = findViewById(R.id.course1);
-        course1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                showToast(1);
-                openDetailsActivity();
-            }
-        });
-        LinearLayout course2 = findViewById(R.id.course2);
+
+        for (int id : subjects) {
+            LinearLayout subject = findViewById(id);
+            subject.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    showToast(1, id);
+                    openDetailsActivity();
+                }
+            });
+        }
+
+   /*       LinearLayout course2 = findViewById(R.id.course2);
         course2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -32,20 +37,20 @@ public class MainActivity extends AppCompatActivity {
                 //startActivity(picture_intent );
             }
         });
-        LinearLayout course3 = findViewById(R.id.course3);
+      LinearLayout course3 = findViewById(R.id.course3);
         course3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 showToast(1);
                 openDetailsActivity();
             }
-        });
+        });*/
     }
 
-    private void showToast(int type) {
+    private void showToast(int type, int id) {
         Toast t;
         t = Toast.makeText(MainActivity.this,
-                "click", Toast.LENGTH_SHORT);
+                "click" + id, Toast.LENGTH_SHORT);
         if (type == 0) {
             t = Toast.makeText(MainActivity.this,
                     "click", Toast.LENGTH_SHORT);

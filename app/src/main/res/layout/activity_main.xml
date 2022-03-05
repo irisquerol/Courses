@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
@@ -9,27 +11,36 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/purple_200"
+        android:background="@color/white"
         android:orientation="vertical"
+        android:textColor="@color/purple_200"
         tools:layout_editor_absoluteX="63dp"
         tools:layout_editor_absoluteY="-16dp">
 
-
         <LinearLayout
-            android:id="@+id/course1"
+            android:id="@+id/subject1"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:orientation="horizontal">
+            android:layout_height="150dp"
+            android:layout_marginRight="5dp">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:background="@color/blue"
+                android:contentDescription="@string/title1"
+                android:padding="5dp"
+                android:src="@mipmap/book" />
 
             <TextView
                 android:id="@+id/title1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="50dp"
-                android:text="dfgsdfg"
-                android:textColor="@color/purple_200"
-                android:textSize="30sp"
+                android:layout_marginRight="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/title1"
+                android:textColor="@color/dark_blue"
+                android:textSize="15sp"
                 android:textStyle="bold" />
 
         </LinearLayout>
@@ -37,25 +48,31 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="3dp"
-            android:background="@color/black" />
+            android:background="@color/dark_blue" />
 
         <LinearLayout
-            android:id="@+id/course2"
+            android:id="@+id/subject2"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="150dp"
             android:clickable="true"
             android:focusable="true"
             android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:background="@color/blue"
+                android:contentDescription="@string/title1"
+                android:padding="5dp"
+                android:src="@mipmap/book" />
 
             <TextView
                 android:id="@+id/title2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="50dp"
-                android:text="dfgsdfg"
+                android:text="@string/title2"
                 android:textColor="@color/purple_200"
-                android:textSize="30sp"
                 android:textStyle="bold" />
 
         </LinearLayout>
@@ -66,20 +83,29 @@
             android:background="@color/black" />
 
         <LinearLayout
-            android:id="@+id/course3"
+            android:id="@+id/subject3"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:orientation="horizontal">
+            android:layout_height="150dp"
+            android:layout_marginRight="5dp">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:background="@color/blue"
+                android:contentDescription="@string/title3"
+                android:padding="5dp"
+                android:src="@mipmap/book" />
 
             <TextView
                 android:id="@+id/title3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="50dp"
-                android:text="dfgsdfg"
-                android:textColor="@color/purple_200"
-                android:textSize="30sp"
+                android:layout_marginRight="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/title3"
+                android:textColor="@color/dark_blue"
+                android:textSize="15sp"
                 android:textStyle="bold" />
 
         </LinearLayout>
@@ -88,6 +114,95 @@
             android:layout_width="match_parent"
             android:layout_height="3dp"
             android:background="@color/black" />
+
+        <LinearLayout
+            android:id="@+id/subject4"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginRight="5dp">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:background="@color/blue"
+                android:contentDescription="@string/title4"
+                android:padding="5dp"
+                android:src="@mipmap/book" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/title4"
+                android:textColor="@color/dark_blue"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/dark_blue" />
+
+        <LinearLayout
+            android:id="@+id/subject5"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:background="@color/blue"
+                android:contentDescription="@string/title1"
+                android:padding="5dp"
+                android:src="@mipmap/book" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title2"
+                android:textColor="@color/purple_200"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/dark_blue" />
+
+        <LinearLayout
+            android:id="@+id/subject6"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:background="@color/blue"
+                android:contentDescription="@string/title1"
+                android:padding="5dp"
+                android:src="@mipmap/book" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title2"
+                android:textColor="@color/purple_200"
+                android:textStyle="bold" />
+
+        </LinearLayout>
     </LinearLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
