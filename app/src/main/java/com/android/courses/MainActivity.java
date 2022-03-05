@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View v) {
                     showToast(1, id);
-                    openDetailsActivity();
+                    openDetailsActivity(id);
                 }
             });
         }
@@ -62,8 +62,9 @@ public class MainActivity extends AppCompatActivity {
         t.show();
     }
 
-    public void openDetailsActivity() {
+    public void openDetailsActivity(int intSubject) {
         Intent intent = new Intent(MainActivity.this, DetailsActivity.class);
+        intent.putExtra("subjectID", intSubject);
         startActivity(intent);
     }
 }
