@@ -27,6 +27,7 @@
                 android:layout_height="150dp"
                 android:layout_gravity="center"
                 android:background="@color/blue"
+                android:scaleType="centerCrop"
                 android:contentDescription="@string/title1"
                 android:padding="5dp"
                 android:src="@mipmap/mviles" />
@@ -72,6 +73,7 @@
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:layout_gravity="center"
+                android:scaleType="centerCrop"
                 android:background="@color/blue"
                 android:contentDescription="@string/title1"
                 android:padding="5dp"
@@ -114,6 +116,7 @@
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:layout_gravity="center"
+                android:scaleType="centerCrop"
                 android:background="@color/blue"
                 android:contentDescription="@string/title3"
                 android:padding="5dp"
@@ -158,6 +161,7 @@
                 android:layout_height="150dp"
                 android:layout_gravity="center"
                 android:background="@color/blue"
+                android:scaleType="centerCrop"
                 android:contentDescription="@string/title4"
                 android:padding="5dp"
                 android:src="@mipmap/fotografia" />
@@ -204,6 +208,7 @@
                 android:layout_height="150dp"
                 android:layout_gravity="center"
                 android:background="@color/blue"
+                android:scaleType="centerCrop"
                 android:contentDescription="@string/title5"
                 android:padding="5dp"
                 android:src="@mipmap/careeartech" />
@@ -250,6 +255,7 @@
                 android:layout_height="150dp"
                 android:layout_gravity="center"
                 android:background="@color/blue"
+                android:scaleType="centerCrop"
                 android:contentDescription="@string/title6"
                 android:padding="5dp"
                 android:src="@mipmap/redes" />
