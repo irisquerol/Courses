@@ -1,3 +1,3 @@
 # Subjects
 # Martí Farré i Iris Querol
-https://github.com/irisquerol/Courses
+https://github.com/irisquerol/Subjects
