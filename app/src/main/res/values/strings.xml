@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Subjects</string>
     <string name="careear">GRADO EN TÉCNICAS DE APLICACIONES DE SOFTWARE</string>
+
     <string name="title1">Desarrollo en dispositivos móviles I</string>
     <string name="descriptionShort1">La programación es una ciencia principalmente práctica y, como la mayoría de ciencias prácticas, esta se estructura en proyectos.</string>
     <string name="descriptionLong1">La programación es una ciencia principalmente práctica y, como la mayoría de ciencias prácticas, esta se estructura en proyectos. Esta es la premisa de la cual parte la asignatura de Proyectos de Programación 2. El objetivo principal de la asignatura es ampliar los conocimientos de los alumnos en el campo de la programación, presentándolos un nuevo ámbito: la programación para dispositivos móviles. Dado que el mundo de la programación para dispositivos móviles es muy amplio, la asignatura se centrará en el sistema que, de momento, tiene una mayor presencia en el mercado. Este sistema es Android. La asignatura tendrá también como objetivo dotar al alumno de técnicas y conocimientos, tanto prácticos como teóricos, que le permitan afrontar el mundo de la programación con las herramientas necesarias. La asignatura pretende utilizar una metodología eminentemente práctica para impartir el nuevo conocimiento. De esta forma será habitual que los conocimientos teóricos voy acompañados de ejercicios, y/o proyectos, tanto individuales como en equipo.</string>
@@ -24,4 +25,17 @@
     <string name="descriptionLong4">La asignatura pretende que el alumno reciba los conocimientos técnicos y prácticos suficientes para que al finalizarla sea capaz de desarrollarse en el mundo de la fotografía de forma autónoma. Durante el semestre se verán todos los temas más importantes de la fotografía como se la técnica fotográfica, la composición, la iluminación, el procesado digital, la elaboración del reportaje y las aplicaciones científicas de la fotografía.</string>
     <string name="credits4">6 ECTS</string>
     <string name="teacher4">Joan De la Malla Gómez</string>
+
+    <string name="title5">Career and technology</string>
+    <string name="descriptionShort5">La asignatura Career and Technology responde a la demanda de profesionales con formación multidisciplinar preparados para trabajar en un mundo global con herramientas adecuadas y una mentalidad emprendedora. </string>
+    <string name="descriptionLong5">La asignatura Career and Technology responde a la demanda de profesionales con formación multidisciplinar preparados para trabajar en un mundo global con herramientas adecuadas y una mentalidad emprendedora. El programa se imparte exclusivamente en inglés con el objetivo de mejorar las habilidades lingüísticas y ayudar a los estudiantes a expresarse con facilidad en un entorno profesional del sector tecnológico.</string>
+    <string name="credits5">4 ECTS</string>
+    <string name="teacher5">Larisa Tatge</string>
+
+    <string name="title6">Redes de àrea local</string>
+    <string name="descriptionShort6">La asignatura de Redes de Área Local pretende proporcionar a los alumnos conocimientos fundamentales sobre redes mediante una combinación de actividades como clases magistrales y una fuerte presencia de prácticas con equipamiento real que apoyan el aprendizaje.</string>
+    <string name="descriptionLong6">La asignatura de Redes de Área Local pretende proporcionar a los alumnos conocimientos fundamentales sobre redes mediante una combinación de actividades como clases magistrales y una fuerte presencia de prácticas con equipamiento real que apoyan el aprendizaje. La asignatura incorpora los conocimientos asociados a los dos primeros módulos (ITN, RSE) del nivel de formación Cisco Certified Network Associate (CCNA) que están presentes en el programa de aprendizaje Cisco Networking Academy Program (CNAP). En esta asignatura se realizarán los siguientes módulos de aprendizaje del CNAP: &#61623; ITN  Introduction to Networks (CCNA1) &#61623; RSE  Routing and Switching Essentials (CCNA2) Todo el temario estará en inglés, pero las clases magistrales y el apoyo del profesor podrá ser en castellano o catalán. La asignatura proporciona los conocimientos necesarios para diseñar, construir y mantener redes escalables de ordenadores de tamaños medios, incluyendo: Direccionamiento IP, encaminamiento, protecciones indispensables de seguridad, etc.</string>
+    <string name="credits6">6 ECTS</string>
+    <string name="teacher6">Julia Sánchez Rodríguez</string>
+
 </resources>
