@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/scrollView"
     android:layout_width="match_parent"
@@ -10,7 +9,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:background="@color/white"
         android:orientation="vertical"
         android:textColor="@color/purple_200"
@@ -20,7 +19,8 @@
         <LinearLayout
             android:id="@+id/subject1"
             android:layout_width="match_parent"
-            android:layout_height="150dp">
+            android:layout_height="150dp"
+            android:orientation="horizontal">
 
             <ImageView
                 android:layout_width="150dp"
@@ -31,17 +31,28 @@
                 android:padding="5dp"
                 android:src="@mipmap/book" />
 
-            <TextView
-                android:id="@+id/title1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="5dp"
-                android:paddingRight="5dp"
-                android:text="@string/title1"
-                android:textColor="@color/dark_blue"
-                android:textSize="15sp"
-                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="vertical">
 
+                <TextView
+                    android:id="@+id/title1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title1"
+                    android:textColor="@color/dark_blue"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/descriptionShort1"
+                    android:textColor="@color/dark_blue"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
         </LinearLayout>
 
         <View
@@ -66,14 +77,27 @@
                 android:padding="5dp"
                 android:src="@mipmap/book" />
 
-            <TextView
-                android:id="@+id/title2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/title2"
-                android:textColor="@color/purple_200"
-                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="vertical">
 
+                <TextView
+                    android:id="@+id/title2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title2"
+                    android:textColor="@color/dark_blue"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/descriptionShort2"
+                    android:textColor="@color/dark_blue"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
         </LinearLayout>
 
         <View
@@ -84,8 +108,7 @@
         <LinearLayout
             android:id="@+id/subject3"
             android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:layout_marginRight="5dp">
+            android:layout_height="150dp">
 
             <ImageView
                 android:layout_width="150dp"
@@ -96,16 +119,27 @@
                 android:padding="5dp"
                 android:src="@mipmap/book" />
 
-            <TextView
-                android:id="@+id/title3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="5dp"
-                android:paddingRight="5dp"
-                android:text="@string/title3"
-                android:textColor="@color/dark_blue"
-                android:textSize="15sp"
-                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/title3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title3"
+                    android:textColor="@color/dark_blue"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/descriptionShort3"
+                    android:textColor="@color/dark_blue"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
 
         </LinearLayout>
 
@@ -117,8 +151,7 @@
         <LinearLayout
             android:id="@+id/subject4"
             android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:layout_marginRight="5dp">
+            android:layout_height="150dp">
 
             <ImageView
                 android:layout_width="150dp"
@@ -129,15 +162,27 @@
                 android:padding="5dp"
                 android:src="@mipmap/book" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="5dp"
-                android:paddingRight="5dp"
-                android:text="@string/title4"
-                android:textColor="@color/dark_blue"
-                android:textSize="15sp"
-                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/title4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title4"
+                    android:textColor="@color/dark_blue"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/descriptionShort4"
+                    android:textColor="@color/dark_blue"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
 
         </LinearLayout>
 
@@ -159,16 +204,31 @@
                 android:layout_height="150dp"
                 android:layout_gravity="center"
                 android:background="@color/blue"
-                android:contentDescription="@string/title1"
+                android:contentDescription="@string/title5"
                 android:padding="5dp"
                 android:src="@mipmap/book" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/title2"
-                android:textColor="@color/purple_200"
-                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/title5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title5"
+                    android:textColor="@color/dark_blue"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/descriptionShort5"
+                    android:textColor="@color/dark_blue"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
 
         </LinearLayout>
 
@@ -190,16 +250,31 @@
                 android:layout_height="150dp"
                 android:layout_gravity="center"
                 android:background="@color/blue"
-                android:contentDescription="@string/title1"
+                android:contentDescription="@string/title6"
                 android:padding="5dp"
                 android:src="@mipmap/book" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/title2"
-                android:textColor="@color/purple_200"
-                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/title6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title6"
+                    android:textColor="@color/dark_blue"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/descriptionShort6"
+                    android:textColor="@color/dark_blue"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
 
         </LinearLayout>
     </LinearLayout>

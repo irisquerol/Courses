@@ -9,18 +9,14 @@ import android.widget.TextView;
 
 public class DetailsActivity extends AppCompatActivity {
 
-    private int id;
-
-    private String[] titles, descriptions, teachers, credits;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_details);
-        titles = getResources().getStringArray(R.array.titles);
-        descriptions = getResources().getStringArray(R.array.longdescription);
-        teachers = getResources().getStringArray(R.array.teachers);
-        credits = getResources().getStringArray(R.array.credits);
+        String[] titles = getResources().getStringArray(R.array.titles);
+        String[] descriptions = getResources().getStringArray(R.array.longdescription);
+        String[] teachers = getResources().getStringArray(R.array.teachers);
+        String[] credits = getResources().getStringArray(R.array.credits);
         Intent intentGetter = getIntent();
         int intValue = intentGetter.getIntExtra("subjectID", 0);
 
