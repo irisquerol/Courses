@@ -29,7 +29,7 @@
                 android:background="@color/blue"
                 android:contentDescription="@string/title1"
                 android:padding="5dp"
-                android:src="@mipmap/book" />
+                android:src="@mipmap/mviles" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -75,7 +75,7 @@
                 android:background="@color/blue"
                 android:contentDescription="@string/title1"
                 android:padding="5dp"
-                android:src="@mipmap/book" />
+                android:src="@mipmap/entornos_web" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -117,7 +117,7 @@
                 android:background="@color/blue"
                 android:contentDescription="@string/title3"
                 android:padding="5dp"
-                android:src="@mipmap/book" />
+                android:src="@mipmap/programacionobjectos" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -160,7 +160,7 @@
                 android:background="@color/blue"
                 android:contentDescription="@string/title4"
                 android:padding="5dp"
-                android:src="@mipmap/book" />
+                android:src="@mipmap/fotografia" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -206,7 +206,7 @@
                 android:background="@color/blue"
                 android:contentDescription="@string/title5"
                 android:padding="5dp"
-                android:src="@mipmap/book" />
+                android:src="@mipmap/careeartech" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -252,7 +252,7 @@
                 android:background="@color/blue"
                 android:contentDescription="@string/title6"
                 android:padding="5dp"
-                android:src="@mipmap/book" />
+                android:src="@mipmap/redes" />
 
             <LinearLayout
                 android:layout_width="match_parent"
