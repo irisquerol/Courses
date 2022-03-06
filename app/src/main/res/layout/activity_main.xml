@@ -35,12 +35,14 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:layout_margin="5dp">
 
                 <TextView
                     android:id="@+id/title1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+
                     android:text="@string/title1"
                     android:textColor="@color/dark_blue"
                     android:textSize="15sp"
@@ -51,8 +53,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/descriptionShort1"
                     android:textColor="@color/dark_blue"
-                    android:textSize="15sp"
-                    android:textStyle="bold" />
+                    android:textSize="12sp"/>
             </LinearLayout>
         </LinearLayout>
 
@@ -82,7 +83,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:layout_margin="5dp">
 
                 <TextView
                     android:id="@+id/title2"
@@ -97,15 +99,14 @@
                     android:layout_height="wrap_content"
                     android:text="@string/descriptionShort2"
                     android:textColor="@color/dark_blue"
-                    android:textSize="15sp"
-                    android:textStyle="bold" />
+                    android:textSize="12sp"/>
             </LinearLayout>
         </LinearLayout>
 
         <View
             android:layout_width="match_parent"
             android:layout_height="3dp"
-            android:background="@color/black" />
+            android:background="@color/dark_blue" />
 
         <LinearLayout
             android:id="@+id/subject3"
@@ -125,7 +126,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:layout_margin="5dp">
 
                 <TextView
                     android:id="@+id/title3"
@@ -140,8 +142,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/descriptionShort3"
                     android:textColor="@color/dark_blue"
-                    android:textSize="15sp"
-                    android:textStyle="bold" />
+                    android:textSize="12sp"/>
             </LinearLayout>
 
         </LinearLayout>
@@ -169,7 +170,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:layout_margin="5dp">
 
                 <TextView
                     android:id="@+id/title4"
@@ -184,8 +186,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/descriptionShort4"
                     android:textColor="@color/dark_blue"
-                    android:textSize="15sp"
-                    android:textStyle="bold" />
+                    android:textSize="12sp"/>
             </LinearLayout>
 
         </LinearLayout>
@@ -216,7 +217,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:layout_margin="5dp">
 
                 <TextView
                     android:id="@+id/title5"
@@ -231,8 +233,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/descriptionShort5"
                     android:textColor="@color/dark_blue"
-                    android:textSize="15sp"
-                    android:textStyle="bold" />
+                    android:textSize="12sp"/>
             </LinearLayout>
 
         </LinearLayout>
@@ -263,7 +264,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:layout_margin="5dp">
 
                 <TextView
                     android:id="@+id/title6"
@@ -278,8 +280,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/descriptionShort6"
                     android:textColor="@color/dark_blue"
-                    android:textSize="15sp"
-                    android:textStyle="bold" />
+                    android:textSize="12sp" />
             </LinearLayout>
 
         </LinearLayout>
