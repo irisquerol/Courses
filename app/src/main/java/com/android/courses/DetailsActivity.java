@@ -10,6 +10,9 @@ import android.widget.TextView;
 
 public class DetailsActivity extends AppCompatActivity {
 
+    /**Creación de textview y asignación de texto y imagenes diferentes para cada asignatura
+     * @param savedInstanceState bundle
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -50,11 +53,6 @@ public class DetailsActivity extends AppCompatActivity {
                 image_banner.setImageResource(R.mipmap.redes);
                 break;
         }
-
-//        if(intValue==0){
-//            image_banner.setImageResource(R.mipmap.mviles);
-//
-//        }
 
 
         subjectTitle_tv.setText(titles[intValue]);

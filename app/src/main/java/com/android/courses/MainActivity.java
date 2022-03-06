@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
             LinearLayout subject = findViewById(subjects[i]);
             int pos = i;
             subject.setOnClickListener(v -> {
-                //showToast(1, i);
+
                 openDetailsActivity(pos);
             });
         }
@@ -34,8 +34,12 @@ public class MainActivity extends AppCompatActivity {
         t.show();
     }
 
+    /**
+     * Funcion que abre otra actividad con la informacion de la asignatura
+     * @param pos integer para saber que asignatura tiene que mostrar la otra actividad
+     */
     public void openDetailsActivity(int pos) {
-        //showToast(pos);
+
         Intent intent = new Intent(MainActivity.this, DetailsActivity.class);
         intent.putExtra("subjectID", pos);
         startActivity(intent);
